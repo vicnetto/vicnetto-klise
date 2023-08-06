@@ -178,16 +178,14 @@
   text-align: center;
 
   object {
-    min-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full} * 1));
-    min-width: calc(#{$narrow-size} - (#{$spacing-full} * 1));
-    min-height: -webkit-calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
-    min-height: calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
+    width: -webkit-calc(#{$narrow-size} - (#{$spacing-full} * 1));
+    width: calc(#{$narrow-size}  - (#{$spacing-full} * 1));
+    height: -webkit-calc(#{$narrow-size} * 1.5);
+    height: calc(#{$narrow-size} * 1.5);
 
     @include media-query($on-mobile) {
-      min-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full}));
-      min-width: calc(#{$narrow-size} - (#{$spacing-full}));
-      min-height: -webkit-calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
-      min-height: calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
+      min-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full} * 2));
+      min-width: calc(#{$narrow-size} - (#{$spacing-full} * 2));
     }
   }
 }
