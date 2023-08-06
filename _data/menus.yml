@@ -2,13 +2,13 @@
   url: /
   external: false
 
-# - title: archive
-#   url: /archive/
-#   external: false
+- title: tags
+  url: /tags/
+  external: false
 
 - title: resume
-  url: /resume/
-  external: false
+  url: https://www.vicnetto.xyz/assets/pdf/cv.pdf
+  external: true
 
 - title: about
   url: /about/

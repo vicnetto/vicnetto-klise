@@ -1,5 +1,5 @@
 ---
-title: Tags
+title: tags
 permalink: /tags/
 layout: page
 excerpt: Sorted article by tags.
