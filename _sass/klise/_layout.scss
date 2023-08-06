@@ -175,8 +175,21 @@
 
 // Resume
 .resume {
-  margin-left: -3.8rem;
   text-align: center;
+
+  object {
+    min-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full} * 1));
+    min-width: calc(#{$narrow-size} - (#{$spacing-full} * 1));
+    min-height: -webkit-calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
+    min-height: calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
+
+    @include media-query($on-mobile) {
+      min-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full}));
+      min-width: calc(#{$narrow-size} - (#{$spacing-full}));
+      min-height: -webkit-calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
+      min-height: calc(#{$narrow-size} * 1.5 - (#{$spacing-full} * 2));
+    }
+  }
 }
 
 // Author
