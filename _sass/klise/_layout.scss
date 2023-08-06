@@ -1,8 +1,8 @@
 // Navbar
 .navbar {
   height: auto;
-  max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
-  max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
+  max-width: 100vh;
+  max-width: 100vh;
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -86,12 +86,6 @@
 
     &:not(:last-child) {
       margin-right: 5px;
-    }
-
-    &.rss {
-      position: relative;
-      bottom: -3px;
-      outline: none;
     }
 
     @include media-query($on-mobile) {
@@ -179,6 +173,12 @@
   }
 }
 
+// Resume
+.resume {
+  margin-left: -3.8rem;
+  text-align: center;
+}
+
 // Author
 .author {
   margin-top: 6.3rem;
@@ -209,6 +209,7 @@
 
   .author-bio {
     margin: 0 auto;
+    margin-bottom: 4px;
     opacity: 0.9;
     max-width: 393px;
     line-height: 1.688;
