@@ -11,6 +11,6 @@ I love to learn, explore new Vim keybindings, and challenge myself on <a href="h
 
 I am particularly interested in Cybersecurity. 👨‍💻
 
-**I will be happy to talk if you, feel free to contact me! ✨**
+**I will be happy to talk with you, feel free to contact me! ✨**
 
 - {{ site.author.email }}
