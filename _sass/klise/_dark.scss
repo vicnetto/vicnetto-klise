@@ -156,7 +156,8 @@ body[data-theme="dark"] {
   // Post Item
   .post-item {
     &:not(:first-child) {
-      border-color: $dark-light;
+      // border-color: $dark-light;
+      border-color: #d0d0d0;
     }
 
     .post-item-date {
@@ -169,6 +170,12 @@ body[data-theme="dark"] {
         &:hover,
         &focus {
           color: $dark-white;
+        }
+      }
+
+      .project-clickable {
+        &:hover {
+          opacity: 0.5;
         }
       }
     }

@@ -273,6 +273,22 @@
         color: $black;
       }
     }
+
+    .project-clickable {
+      text-align: center;
+      padding: 30px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      .project-title {
+        padding-bottom: 10px;
+        font-size: 1.3em;
+        font-weight: 700;
+      }
+    }
   }
 }
 
