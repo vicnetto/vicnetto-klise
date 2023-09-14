@@ -74,7 +74,7 @@ This modification was verified with the assistance of Wireshark, as illustrated 
     </figure>
     <figure>
     <img src="/assets/posts/sni-changer-using-mitm-proxy/two-handshakes-sni-after.png">
-    <figcaption>Figure 4. <i>server_name</i> in the first handshake, in frame 118 of the capture.</figcaption>
+    <figcaption>Figure 4. <i>server_name</i> in the second handshake, in frame 118 of the capture.</figcaption>
     </figure>
 </div>
 
