@@ -6,9 +6,13 @@
   url: /tags/
   external: false
 
-- title: resume
-  url: https://www.vicnetto.xyz/assets/pdf/cv.pdf
-  external: true
+# - title: resume
+#   url: https://www.vicnetto.xyz/assets/pdf/cv.pdf
+#   external: true
+
+- title: resumé
+  url: /resume/
+  external: false
 
 - title: about
   url: /about/
