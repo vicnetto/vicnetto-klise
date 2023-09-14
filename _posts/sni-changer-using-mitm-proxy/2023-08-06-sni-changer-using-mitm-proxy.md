@@ -64,17 +64,17 @@ This modification was verified with the assistance of Wireshark, as illustrated 
 
 <figure>
     <img src="/assets/posts/sni-changer-using-mitm-proxy/two-handshakes.png">
-    <figcaption>Figure 2. Capture réseau des deux handshakes à l’aide du Wireshark.</figcaption>
+    <figcaption>Figure 2. Network traffic capture of the two handshakes using Wireshark.</figcaption>
 </figure>
 
 <div style="display: flex; flex-orientation: row;">
     <figure>
     <img src="/assets/posts/sni-changer-using-mitm-proxy/two-handshakes-sni-before.png">
-    <figcaption>Figure 3. <i>server_name</i> dans le premier handshake, dans la trame 77 de la capture.</figcaption>
+    <figcaption>Figure 3. <i>server_name</i> in the first handshake, in frame 77 of the capture.</figcaption>
     </figure>
     <figure>
     <img src="/assets/posts/sni-changer-using-mitm-proxy/two-handshakes-sni-after.png">
-    <figcaption>Figure 4. <i>server_name</i> dans le premier handshake, dans la trame 118 de la capture.</figcaption>
+    <figcaption>Figure 4. <i>server_name</i> in the first handshake, in frame 118 of the capture.</figcaption>
     </figure>
 </div>
 
