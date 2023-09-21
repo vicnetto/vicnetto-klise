@@ -10,7 +10,7 @@ image: /assets/posts/sni-changer-using-mitm-proxy/sni-changer.png
 The SNI-Changer is a tool designed to change the SNI extension of the ClientHello message. To do this, a TLS connection is established with the user, pretending to be the server, thus providing a certificate signed by a user-created root certificate. With the target server, another TLS connection is established, modifying one of the extensions of the TLS protocol, the Server Name Indication (SNI). After both of these connections are in place, any data transmitted between the user and the server is redirected to the opposite party.
 
 <figure>
-    <img src="/assets/posts/sni-changer-using-mitm-proxy/sni-changer-using-mitm-proxy.png">
+    <img src="/assets/posts/sni-changer-using-mitm-proxy/sni-changer-schema.png">
     <figcaption>Figure 1. Operation of the SNI-Changer using Mitm-Proxy.</figcaption>
 </figure>
 
